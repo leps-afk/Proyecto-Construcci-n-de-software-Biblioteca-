@@ -32,13 +32,16 @@ if ($_POST) {
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+<!-- Contenedor del formulario de login -->
 <div class="login">
     <h2>Iniciar Sesión</h2>
-
+    <!-- Formulario de acceso -->
     <form method="POST">
+        <!-- Campo correo -->
         <input type="email" name="email" placeholder="Correo" required>
+        <!-- Campo contraseña -->
         <input type="password" name="password" placeholder="Contraseña" required>
+        <!-- Botón de ingreso -->
         <button type="submit">Ingresar</button>
     </form>
 </div>
